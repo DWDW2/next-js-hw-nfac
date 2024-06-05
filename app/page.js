@@ -16,7 +16,7 @@ export default function Home() {
         <Input placeholder="Номер" />
         <Button />
       </div>
-        <img src="https://framerusercontent.com/images/F6zn3wYuthzj0Iq3EQ6tTrXzR6w.jpg?scale-down-to=2048" className="w-3/4 rounded-md mr-auto ml-auto mt-16"/>
+        <Image src="https://framerusercontent.com/images/F6zn3wYuthzj0Iq3EQ6tTrXzR6w.jpg?scale-down-to=2048" className="w-3/4 rounded-md mr-auto ml-auto mt-16" width={2000} height={2000}/>
     </div>
   );
 }
