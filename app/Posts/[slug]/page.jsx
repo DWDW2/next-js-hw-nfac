@@ -17,7 +17,7 @@ const page = ({params}) => {
         {data && data.map((post) => {
           if (Number(params.slug) === post.id) {
             return (
-              <Post_inner title={post.title} description={post.description} date={post.date} author={post.author} />
+              <Post_inner key={post.id} title={post.title} description={post.description} date={post.date} author={post.author} />
             );
       }
       })}
