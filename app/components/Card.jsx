@@ -1,5 +1,4 @@
 import React from 'react'
-import fs  from 'fs';
 import Link from 'next/link';
 
 const Card = (props) => {
